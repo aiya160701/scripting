@@ -15,5 +15,7 @@ systemctl status httpd | grep "Active"
 systemctl enable httpd
 
 ## write htmls
-echo "This is an automated apache server of Aiya Adil" "Hello world" "I am very excited" > /var/www/html/index.html
+echo "This is an automated apache server of Aiya Adil" "Hello world""I am very excited" > /var/www/html/index.html
+
+
 
